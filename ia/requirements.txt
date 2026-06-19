@@ -1,0 +1,12 @@
+# Dependencias de la IA. Instálalas con: pip install -r requirements.txt
+# (Empieza con pocas; añade más a medida que avances.)
+
+python-dotenv      # Leer la clave de API desde .env de forma segura
+anthropic          # Cliente para usar el modelo Claude por API
+# openai           # Alternativa: cliente de OpenAI (descomenta si lo usas)
+# ollama           # Para ejecutar modelos en local más adelante
+
+# --- Cuando llegues a agentes y memoria, descomenta ---
+# langgraph
+# langchain
+# chromadb         # Base de datos vectorial (memoria a largo plazo)

@@ -1,0 +1,37 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# === Secretos (NUNCA subir claves de API) ===
+.env
+*.key
+
+# === Unity / C# ===
+juego/[Ll]ibrary/
+juego/[Tt]emp/
+juego/[Oo]bj/
+juego/[Bb]uild/
+juego/[Bb]uilds/
+juego/[Ll]ogs/
+juego/[Uu]ser[Ss]ettings/
+*.csproj
+*.sln
+*.suo
+
+# === Sistema operativo / editores ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# === Modelos pesados / datos ===
+*.gguf
+*.bin
+data/
+models/
